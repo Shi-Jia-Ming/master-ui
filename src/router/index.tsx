@@ -12,11 +12,11 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: "/master-ui/master/panel",
+    path: "/master-ui/panel",
     element: <div>Master Panel</div>
   },
   {
-    path: "/master-ui/master/dock",
+    path: "/master-ui/dock",
     element: <MasterDock />
   }
 ]);
