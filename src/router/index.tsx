@@ -1,5 +1,6 @@
 import {createBrowserRouter, Navigate} from "react-router-dom";
 import App from "../App.tsx";
+import MasterDock from "../views/MasterDock.tsx";
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/master-ui/master/dock",
-    element: <div>Master Dock</div>
+    element: <MasterDock />
   }
 ]);
 
