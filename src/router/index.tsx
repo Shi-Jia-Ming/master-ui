@@ -1,6 +1,7 @@
 import {createBrowserRouter, Navigate} from "react-router-dom";
 import App from "../App.tsx";
 import MasterDock from "../views/MasterDock.tsx";
+import MasterPanel from "../views/MasterPanel.tsx";
 
 const router = createBrowserRouter([
   {
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/master-ui/panel",
-    element: <div>Master Panel</div>
+    element: <MasterPanel />
   },
   {
     path: "/master-ui/dock",
