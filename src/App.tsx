@@ -9,11 +9,11 @@ function App() {
         my projects faster. Please see my fantastic components below.
       </p>
       <h2 className={"self-start text-3xl p-10"}>Components</h2>
-      <ul className={"list-disc"}>
-        <li>
+      <ul className={"list-disc pl-20"}>
+        <li className={"h-10"}>
           <a href="/master-ui/master/panel">Master Panel</a>
         </li>
-        <li>
+        <li className={"h-10"}>
           <a href="/master-ui/master/dock">Master Dock</a>
         </li>
       </ul>
