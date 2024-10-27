@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function App() {
   return (
     <div className={"size-full flex flex-col justify-center"}>
@@ -11,10 +13,10 @@ function App() {
       <h2 className={"self-start text-3xl p-10"}>Components</h2>
       <ul className={"list-disc pl-20"}>
         <li className={"h-10"}>
-          <a href="/master-ui/master/panel">Master Panel</a>
+          <Link to={"/master-ui/panel"}>Master Panel</Link>
         </li>
         <li className={"h-10"}>
-          <a href="/master-ui/master/dock">Master Dock</a>
+          <Link to={"/master-ui/dock"}>Master Dock</Link>
         </li>
       </ul>
     </div>
